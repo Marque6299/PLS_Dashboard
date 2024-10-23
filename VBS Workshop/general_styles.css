@@ -9,7 +9,7 @@ body {
     width: 300px;
     margin: 100px auto;
     padding: 20px;
-    background: blue;
+    background: rgb(70, 70, 77);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -33,6 +33,7 @@ input {
 
 button {
     width: 90%;
+    align-items: center;
     padding: 10px;
     background-color: #007BFF;
     color: white;
@@ -46,5 +47,6 @@ button {
 
 .links a {
     display: inline-block;
+    align-items: center;
     margin-top: 10px;
 }
