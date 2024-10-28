@@ -56,7 +56,7 @@ function updateChart(data) {
     });
 }
 
-function filterData(criteria){
+function filteredData(criteria){
     let filteredData;
 
     if (criteria === 'all') {
