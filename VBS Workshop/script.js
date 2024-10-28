@@ -62,15 +62,15 @@ function filterData(criteria){
     if (criteria === 'all') {
         filteredData = salesData;
     } else if (criteria === 'region1') {
-        filterData = salesData.filter(d => d.region === 'region1');
+        filteredData = salesData.filter(d => d.region === 'region1');
     } else if (criteria === 'region2') {
-        filterData = salesData.filter(d => d.region === 'region2');
+        filteredData = salesData.filter(d => d.region === 'region2');
     } else if (criteria === 'productA') {
-        filterData = salesData.filter(d => d.region === 'productA');
+        filteredData = salesData.filter(d => d.region === 'productA');
     } else if (criteria === 'productB') {
-        filterData = salesData.filter(d => d.region === 'productB');
+        filteredData = salesData.filter(d => d.region === 'productB');
     }
 
-    updateChart(filterData);
+    updateChart(filteredData);
 
 }
