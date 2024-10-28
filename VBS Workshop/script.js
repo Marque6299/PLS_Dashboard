@@ -35,7 +35,7 @@ function updateChart(data) {
     if (chart) chart.destroy();
 
     chart = new Chart(ctx,{
-        type: 'pie',
+        type: 'line',
         data: {
             labels: labels,
             datasets: [{
