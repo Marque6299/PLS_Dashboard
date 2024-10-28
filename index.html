@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Data Visualization</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Sales Data Visualization</h1>
+
+        <div class="filter-buttons">
+            <button onclick="filterData('all')">All</button>
+            <button onclick="filterData('region1')">Region 1</button>
+            <button onclick="filterData('region2')">Region 2</button>
+            <button onclick="filterData('productA')">Product A</button>
+            <button onclick="filterData('productB')">Product B</button>
+        </div>
+        <div class="chart-container">
+            <canvas id="salesChart"></canvas>
+        </div>
+    </div>
+
+<script scr="script.js"></script>
+
+</body>
+</html>
