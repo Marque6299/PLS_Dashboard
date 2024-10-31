@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <aside id="sidebar">
+        <button id="toggle-btn">☰</button>
+        <h2>Navigation</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a>
+                    <ul class="sub-menu">
+                        <li><a href="site.html">Site</a></li>
+                        <li><a href="manager.html">Manager</a></li>
+                        <li><a href="individual.html">Individual</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Dashboard Content -->
+    <main id="content">
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <div id="data-output"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
