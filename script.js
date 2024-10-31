@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     if (document.getElementById("ahtChart")) {
-        fetch('data.json')
+        fetch('https://marque6299.github.io/PLS_Dashboard/data.json')
             .then(response => response.json())
             .then(data => {
                 const ahtData = {};
