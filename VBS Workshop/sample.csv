@@ -1,7 +1,0 @@
-date,region,product,sales
-2024-01-01,region1,productA,100
-2024-01-01,region2,productB,200
-2024-01-02,region1,productA,150
-2024-01-02,region2,productB,200
-2024-01-03,region1,productA,300
-2024-01-03,region2,productB,350
