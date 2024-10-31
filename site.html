@@ -31,10 +31,28 @@
     <main id="content">
         <section id="site">
             <h2>Site Daily AHT</h2>
+
+            <!-- Filter Section -->
+            <div class="filters">
+                <label for="location-filter">Location:</label>
+                <select id="location-filter">
+                    <option value="all">All</option>
+                </select>
+
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date">
+
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date">
+
+                <button id="filter-btn">Apply Filter</button>
+            </div>
+
+            <!-- Chart Container -->
             <canvas id="ahtChart" width="600" height="400"></canvas>
         </section>
     </main>
-
+    
     <script src="https://marque6299.github.io/PLS_Dashboard/script.js"></script>
 </body>
 </html>
