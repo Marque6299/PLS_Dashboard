@@ -14,7 +14,7 @@ body {
   padding: 20px;
   height: 100vh;
   transition: width 0.3s ease;
-  position: sticky;
+  position: relative;
   overflow: hidden;
 }
 #sidebar.collapsed {
